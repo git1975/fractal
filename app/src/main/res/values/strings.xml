@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Fractal</string>
+    <string name="btnRefresh">Refresh</string>
+    <string name="btnStop">Stop</string>
+
+</resources>

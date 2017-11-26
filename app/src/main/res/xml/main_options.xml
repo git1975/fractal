@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+	        android:title="Settings"
+	        android:key="fractalSettings">
+	        <CheckBoxPreference android:key="optShowWhile" android:title="Show in progress" android:defaultValue="true"/><CheckBoxPreference android:key="optShowPartial" android:title="Show partial" android:defaultValue="false"/>
+	        <ListPreference android:entryValues="@array/threadCountValues" android:key="optThreadCount" android:title="Threads Count" android:entries="@array/threadCount" android:defaultValue="4"/>
+	        <ListPreference android:entryValues="@array/quadCountValues" android:key="optQuadCount" android:title="Quad size" android:entries="@array/quadCount" android:defaultValue="3"/>
+	        <ListPreference android:entryValues="@array/calcDepthValues" android:key="optCalcDepth" android:title="Calculation depth" android:entries="@array/calcDepth" android:defaultValue="50"/>
+	        <ListPreference android:key="optStartType" android:title="Where to start" android:entryValues="@array/startTypeValues" android:entries="@array/startType" android:defaultValue="2"/>
+	        <ListPreference android:entryValues="@array/precisionValues" android:entries="@array/precision" android:key="optPrecision" android:title="Math precision" android:defaultValue="1"/>   
+	             
+	    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="updateInterval">
+	        <item name="1000">Every 1 second</item>
+	        <item name="5000">Every 5 seconds</item>
+	        <item name="30000">Every 30 seconds</item>
+	        <item name="60000">Every 1 minute</item>
+	        <item name="300000">Every 5 minutes</item>
+	    </string-array>
+	     
+	    <string-array name="updateIntervalValues">
+	        <item name="1000">1000</item>
+	        <item name="5000">5000</item>
+	        <item name="30000">30000</item>
+	        <item name="60000">60000</item>
+	        <item name="300000">300000</item>
+	    </string-array>
+	    
+	    <string-array name="threadCount">
+	        <item name="1">1 thread</item>
+	        <item name="2">2 threads</item>
+	        <item name="4">4 threads</item>
+	        <item name="8">8 threads</item>
+	        <item name="16">16 threads</item>
+	        <item name="32">32 threads</item>
+	    </string-array>
+	    <string-array name="threadCountValues">
+	        <item name="1">1</item>
+	        <item name="2">2</item>
+	        <item name="4">4</item>
+	        <item name="8">8</item>
+	        <item name="16">16</item>
+	        <item name="32">32</item>
+	    </string-array>
+	    
+	    <string-array name="quadCount">
+	        <item name="1">Big</item>
+	        <item name="2">Normal</item>
+	        <item name="3">Small</item>
+	    </string-array>
+	    <string-array name="quadCountValues">
+	        <item name="1">2</item>
+	        <item name="2">3</item>
+	        <item name="3">4</item>
+	    </string-array>
+    
+	    <string-array name="calcDepth">
+	        <item name="1">Depth 20</item>
+	        <item name="2">Depth 50</item>
+	        <item name="3">Depth 100</item>
+	        <item name="4">Depth 150</item>
+	        <item name="5">Depth 200</item>
+	        <item name="6">Depth 300</item>
+	        <item name="7">Depth 400</item>
+	        <item name="8">Depth 500</item>
+	        <item name="9">Depth 600</item>
+	        <item name="10">Depth 700</item>
+	        <item name="11">Depth 800</item>
+	        <item name="12">Depth 900</item>
+	        <item name="13">Depth 1000</item>
+	    </string-array>
+	    <string-array name="calcDepthValues">
+	        <item name="1">20</item>
+	        <item name="2">50</item>
+	        <item name="3">100</item>
+	        <item name="4">150</item>
+	        <item name="5">200</item>
+	        <item name="6">300</item>
+	        <item name="7">400</item>
+	        <item name="8">500</item>
+	        <item name="9">600</item>
+	        <item name="10">700</item>
+	        <item name="11">800</item>
+	        <item name="12">900</item>
+	        <item name="13">1000</item>
+	    </string-array>
+	    
+	    <string-array name="startType">
+	        <item name="1">Start from top</item>
+	        <item name="2">Start from center</item>
+	        <item name="3">Start random</item>
+	    </string-array>
+	    <string-array name="startTypeValues">
+	        <item name="1">1</item>
+	        <item name="2">2</item>
+	        <item name="3">3</item>
+	    </string-array>
+	    
+	    <string-array name="precision">
+	        <item name="1">Float (faster)</item>
+	        <item name="2">Double (slower)</item>
+	    </string-array>
+	    <string-array name="precisionValues">
+	        <item name="1">1</item>
+	        <item name="2">2</item>
+	    </string-array>
+</resources>
