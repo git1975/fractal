@@ -71,7 +71,7 @@ public class RenderThread extends Thread implements Handler.Callback {
 		// Speeds buffer
 		calcBuffer = new int[area.width * area.height];
 		resultBuffer = new int[area.width * area.height];
-		// очищаем
+		// Clear
 		for (j = 0; j < area.height; j++) {
 			for (i = 0; i < area.width; i++) {
 				calcBuffer[j * area.width + i] = -1;
@@ -109,7 +109,7 @@ public class RenderThread extends Thread implements Handler.Callback {
 			return;
 		}
 
-		// Расчет
+		// Calc
 		int c = 0;
 		int pos = 0;
 		for (j = 0; j < area.height && !paused && !b; j++) {

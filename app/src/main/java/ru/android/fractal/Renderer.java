@@ -95,7 +95,7 @@ public class Renderer {
                     calcBuffer[pos] = Color.rgb(c * c, c + c, c);
                 }
             }
-            if((j%20)==0 && j > 0 && area.showPartial){
+            if((j%50)==0 && j > 0 && area.showPartial){
                 copyResultBuffer(area);
                 send(area, Messages.MSG_AREA_COMPLETE_PART);
 
